@@ -1,0 +1,9 @@
+include ':libraries:test_utils'
+include ':features:characters_favorites'
+include ':features:characters_list'
+include ':features:home'
+include ':commons:views'
+include ':commons:ui'
+include ':app'
+include ':core'
+rootProject.name = "mdular"
