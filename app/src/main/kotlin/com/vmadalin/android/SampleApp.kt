@@ -18,6 +18,8 @@ import kotlin.random.Random
  * @version : 1.0
  * @date : 2021/4/14
  * </pre>
+ * 3b363fe5029d1135945c8f9f7bdcd10c
+ * db56772ade4372a4e5065b01f8511f51e5b6aced
  */
 class SampleApp : SplitCompatApplication() {
 
