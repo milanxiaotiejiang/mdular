@@ -19,8 +19,8 @@ package commons
 import BuildAndroidConfig
 import BuildProductDimensions
 import ProductFlavorDevelop
-import ProductFlavorProduction
-import ProductFlavorQA
+//import ProductFlavorProduction
+//import ProductFlavorQA
 import dependencies.Dependencies
 import dependencies.AnnotationProcessorsDependencies
 import extensions.addTestsDependencies
@@ -66,8 +66,8 @@ android {
     flavorDimensions(BuildProductDimensions.ENVIRONMENT)
     productFlavors {
         ProductFlavorDevelop.libraryCreate(this)
-        ProductFlavorQA.libraryCreate(this)
-        ProductFlavorProduction.libraryCreate(this)
+//        ProductFlavorQA.libraryCreate(this)
+//        ProductFlavorProduction.libraryCreate(this)
     }
 
     sourceSets {

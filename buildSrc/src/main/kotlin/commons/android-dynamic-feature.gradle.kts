@@ -17,15 +17,13 @@
 package commons
 
 import BuildAndroidConfig
+import BuildModules
 import BuildProductDimensions
 import ProductFlavorDevelop
-import ProductFlavorProduction
-import ProductFlavorQA
-import dependencies.Dependencies
 import dependencies.AnnotationProcessorsDependencies
+import dependencies.Dependencies
 import extensions.addTestsDependencies
 import extensions.implementation
-import extensions.testImplementation
 import extensions.kapt
 
 plugins {
@@ -74,8 +72,8 @@ android {
     flavorDimensions(BuildProductDimensions.ENVIRONMENT)
     productFlavors {
         ProductFlavorDevelop.libraryCreate(this)
-        ProductFlavorQA.libraryCreate(this)
-        ProductFlavorProduction.libraryCreate(this)
+//        ProductFlavorQA.libraryCreate(this)
+//        ProductFlavorProduction.libraryCreate(this)
     }
 
     sourceSets {

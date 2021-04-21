@@ -10,7 +10,6 @@ import com.vmadalin.core.network.responses.CharacterResponse
  * @email : 765151629@qq.com
  * @version : 1.0
  * @date : 2021/4/16
- * @description : TODO
  * </pre>
  */
 private const val IMAGE_URL_FORMAT = "%s.%s"

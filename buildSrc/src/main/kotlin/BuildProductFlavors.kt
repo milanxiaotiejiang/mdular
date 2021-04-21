@@ -52,45 +52,45 @@ object ProductFlavorDevelop : BuildProductFlavor {
     }
 }
 
-object ProductFlavorQA : BuildProductFlavor {
-    override val name = "qa"
-
-    override fun appCreate(
-        namedDomainObjectContainer: NamedDomainObjectContainer<ProductFlavor>
-    ): ProductFlavor {
-        return namedDomainObjectContainer.create(name) {
-            applicationIdSuffix = ".qa"
-            versionNameSuffix = "-qa"
-            dimension = BuildProductDimensions.ENVIRONMENT
-        }
-    }
-
-    override fun libraryCreate(
-        namedDomainObjectContainer: NamedDomainObjectContainer<ProductFlavor>
-    ): ProductFlavor {
-        return namedDomainObjectContainer.create(name) {
-            versionNameSuffix = "-qa"
-            dimension = BuildProductDimensions.ENVIRONMENT
-        }
-    }
-}
-
-object ProductFlavorProduction : BuildProductFlavor {
-    override val name = "prod"
-
-    override fun appCreate(
-        namedDomainObjectContainer: NamedDomainObjectContainer<ProductFlavor>
-    ): ProductFlavor {
-        return namedDomainObjectContainer.create(name) {
-            dimension = BuildProductDimensions.ENVIRONMENT
-        }
-    }
-
-    override fun libraryCreate(
-        namedDomainObjectContainer: NamedDomainObjectContainer<ProductFlavor>
-    ): ProductFlavor {
-        return namedDomainObjectContainer.create(name) {
-            dimension = BuildProductDimensions.ENVIRONMENT
-        }
-    }
-}
+//object ProductFlavorQA : BuildProductFlavor {
+//    override val name = "qa"
+//
+//    override fun appCreate(
+//        namedDomainObjectContainer: NamedDomainObjectContainer<ProductFlavor>
+//    ): ProductFlavor {
+//        return namedDomainObjectContainer.create(name) {
+//            applicationIdSuffix = ".qa"
+//            versionNameSuffix = "-qa"
+//            dimension = BuildProductDimensions.ENVIRONMENT
+//        }
+//    }
+//
+//    override fun libraryCreate(
+//        namedDomainObjectContainer: NamedDomainObjectContainer<ProductFlavor>
+//    ): ProductFlavor {
+//        return namedDomainObjectContainer.create(name) {
+//            versionNameSuffix = "-qa"
+//            dimension = BuildProductDimensions.ENVIRONMENT
+//        }
+//    }
+//}
+//
+//object ProductFlavorProduction : BuildProductFlavor {
+//    override val name = "prod"
+//
+//    override fun appCreate(
+//        namedDomainObjectContainer: NamedDomainObjectContainer<ProductFlavor>
+//    ): ProductFlavor {
+//        return namedDomainObjectContainer.create(name) {
+//            dimension = BuildProductDimensions.ENVIRONMENT
+//        }
+//    }
+//
+//    override fun libraryCreate(
+//        namedDomainObjectContainer: NamedDomainObjectContainer<ProductFlavor>
+//    ): ProductFlavor {
+//        return namedDomainObjectContainer.create(name) {
+//            dimension = BuildProductDimensions.ENVIRONMENT
+//        }
+//    }
+//}
