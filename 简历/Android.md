@@ -6,7 +6,7 @@
 - **csdn:** [https://blog.csdn.net/mldxtiejiang](https://blog.csdn.net/mldxtiejiang)
 - **github:** [https://github.com/milanxiaotiejiang](https://github.com/milanxiaotiejiang)
 - **求职意向:** Android 开发工程师 
-- **目前状态:** 在职,一月左右到岗
+- **目前状态:** 在职，一月左右到岗
 - **期望薪资:** 22-23k
 ### 专业技能
 * 具备扎实的 Java、Kotlin 基础，掌握 C、C++、Flutter 等编程语言，有良好的面向对象思想和编码风格，了解面向切面编程，并掌握常见的数据结构和算法。
